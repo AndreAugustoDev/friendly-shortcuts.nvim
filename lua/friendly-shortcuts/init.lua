@@ -30,6 +30,10 @@ map('n', '<C-S>', '<CMD>update<CR>')
 map('v', '<C-S>', '<C-C><CMD>update<CR>')
 map('i', '<C-S>', '<Esc><CMD>update<CR>gi')
 
--- Undo | CTRL-Z (not in cmdline though)
+-- Undo | CTRL-Z (except in cmdline)
 map('', '<C-Z>', 'u')
 map('i', '<C-Z>', '<C-0>u')
+
+-- Redo | CTRL-Y (except in cmdline, although not repeat)
+map('', '<C-Y>', '<C-R>')
+map('i', '<C-Y>', '<C-O><C-R>')

@@ -29,3 +29,7 @@ map('', '<C-Q>', '<C-V>')
 map('n', '<C-S>', '<CMD>update<CR>')
 map('v', '<C-S>', '<C-C><CMD>update<CR>')
 map('i', '<C-S>', '<Esc><CMD>update<CR>gi')
+
+-- Undo | CTRL-Z (not in cmdline though)
+map('', '<C-Z>', 'u')
+map('i', '<C-Z>', '<C-0>u')

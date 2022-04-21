@@ -11,8 +11,8 @@ if vim.fn.has('clipboard') == 1 then
   map('v', '<S-Del>', '+x')
 
   -- Copy | CTRL-C and CTRL-Insert
-  map('v', '<C-C>', '+y')
-  map('v', '<C-Insert>', '+y')
+  map('v', '<C-C>', 'ygv')
+  map('v', '<C-Insert>', 'ygv')
 
   -- Paste | CTRL-V and SHIFT-Insert
   map('n', 'C-V', 'gP')

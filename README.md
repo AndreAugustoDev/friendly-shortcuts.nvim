@@ -21,7 +21,7 @@ require('friendly-shortcuts')
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](issues).
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](/../../issues).
 
 ## 👍 Acknowledgments
 

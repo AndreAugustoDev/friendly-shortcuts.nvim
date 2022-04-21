@@ -14,6 +14,10 @@ Install with your favorite plugin manager, for example [packer.nvim](https://git
 ```lua
 use('AndreAugustoAAQ/friendly-shortcuts.nvim')
 ```
+Then requires the plugin
+```lua
+require('friendly-shortcuts')
+```
 
 ## 🤝 Contributing
 

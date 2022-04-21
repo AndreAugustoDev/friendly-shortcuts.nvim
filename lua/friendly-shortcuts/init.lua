@@ -21,3 +21,11 @@ if vim.fn.has('clipboard') == 1 then
     map('c', 'C-V', '<C-R>+')
     map('c', 'S-Insert', '<C-R>+')
 end
+
+-- Use CTRL-Q to do what CTRL-V used to do
+map('', '<C-Q>', '<C-V>')
+
+-- Save | CTRL-S
+map('n', '<C-S>', '<CMD>update<CR>')
+map('v', '<C-S>', '<C-C><CMD>update<CR>')
+map('i', '<C-S>', '<Esc><CMD>update<CR>gi')

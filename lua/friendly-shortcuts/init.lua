@@ -2,7 +2,7 @@
 local map = vim.keymap.set
 
 -- BACKSPACE in VISUAL mode deletes selection
-map('v', '<BS>', 'd')
+map('v', '<BS>', '"_d')
 
 -- Cut/Copy/Paste
 if vim.fn.has('clipboard') == 1 then

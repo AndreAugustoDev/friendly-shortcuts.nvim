@@ -15,8 +15,8 @@ if vim.fn.has('clipboard') == 1 then
   map('v', '<C-Insert>', 'ygv')
 
   -- Paste | CTRL-V and SHIFT-Insert
-  map('n', 'C-V', 'gP')
-  map('n', 'S-Insert', 'gP')
+  map('n', 'C-V', 'gP+')
+  map('n', 'S-Insert', 'gP+')
   -- Paste in COMMAND mode
   map('c', 'C-V', '<C-R>+')
   map('c', 'S-Insert', '<C-R>+')
